@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Portfolio de SEGBEDJI KOKUVI Barnabé</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f0f2f5;
+    }
+
+    header {
+      background-color: #004080;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      background-color: #0066cc;
+    }
+
+    nav a {
+      flex: 1;
+      padding: 14px;
+      text-align: center;
+      text-decoration: none;
+      color: white;
+      transition: background 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #0052a3;
+    }
+
+    .tab-content {
+      display: none;
+      padding: 30px;
+      background: white;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #004080;
+      color: white;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Portfolio de SEGBEDJI KOKUVI Barnabé</h1>
+  </header>
+
+  <nav>
+    <a href="#" onclick="openTab('photo')">📷 Photo & Contact</a>
+    <a href="#" onclick="openTab('bio')">👤 Présentation</a>
+    <a href="#" onclick="openTab('cv')">📄 CV</a>
+    <a href="#" onclick="openTab('skills')">🛠️ Compétences & Certifications</a>
+    <a href="#" onclick="openTab('projects')">📁 Projets</a>
+    <a href="#" onclick="openTab('goals')">🎯 Objectifs</a>
+    <!-- <a href="#" onclick="openTab('lang')">🌐 Langue</a> -->
+    <a href="#" onclick="openTab('link')">🔗 Portfolio</a>
+  </nav>
+
+   <div id="photo" class="tab-content active">
+    <!-- <h2>Photo & Contact</h2> -->
+    <img src="photo.jpg.jpeg" alt="Ma photo" width="150">
+    <p><strong>Nom :</strong> SEGBEDJI KOKUVI Barnabé</p>
+    <p><strong>Email :</strong> sebarnabe90@gmail.com</p>
+    <p><strong>Téléphone :</strong> +228 90 73 40 96 / 99 79 25 58</p>
+    <p><strong>Adresse :</strong> Lomé, Togo</p>
+    <p><strong>LinkedIn :</strong> <a href="https://www.linkedin.com/in/barnabé-segbedji-kokuvi-b118b7196" target="_blank">Mon profil</a>
+</p>
+  </div>   
+  
+    <div id="bio" class="tab-content active">
+        <!-- <h3>Présentation / Biographie</h3> -->
+        <p> Je suis <strong>SEGBEDJI KOKUVI Barnabé</strong>, originaire du Togo. Statisticien de formation, je possède également des compétences solides en planification et en suivi-évaluation. Titulaire d’une licence en Statistiques sociales appliquées et d’un diplôme en Gestion des Ressources Humaines, je combine des expertises techniques en analyse de données, en planification stratégique et en suivi-évaluation de projets.
+        </p>
+        <p>À travers mes expériences à l’<strong>INSEED</strong>, au <strong>CADERDT</strong>, à la <strong>mairie de Kpendjal 2</strong>, à l’<strong>ITRA</strong> et à l’<strong>ANID</strong>, j’ai participé à des activités variées telles que la collecte et l’analyse de données, l’évaluation d’impact, la rédaction de rapports stratégiques, ainsi que la conception de plans de développement.
+        </p>
+        <p>Mon profil est renforcé par de nombreuses formations internationales, notamment à l’<strong>Université d’Oxford (OPHI)</strong>, à l’<strong>Institut Africain de Développement Économique et de Planification (IDEP)</strong>, au <strong>Fonds Monétaire International (FMI)</strong>, et auprès de l’<strong>ONU Migration</strong>, entre autres. Je poursuis actuellement une formation en <strong>Machine Learning</strong> afin de renforcer mes compétences en science des données.
+        </p>
+        <p>Rigoureux, adaptable et passionné par les données, j’assiste également les jeunes chercheurs dans leurs projets d’analyse statistique. Mon ambition est claire : devenir un <strong>data scientist de référence</strong> et mettre l’intelligence des données au service de politiques publiques inclusives, équitables et efficaces.
+        </p>
+      </div>
+       
+      
+          
+      <div id="cv" class="tab-content">
+        <!-- <h3>Mon CV</h3> -->
+        <p>Vous pouvez consulter ou télécharger mon CV en cliquant sur le bouton ci-dessous :</p>
+        <a href="cv_segbedji.pdf.pdf" download class="button" style="background:#004080; color:white; padding:10px 20px; border-radius:5px; text-decoration:none;">📄 Télécharger le CV</a>
+      </div>
+
+  <div id="skills" class="tab-content">
+    <!-- <h3>Compétences & Certifications</h3> -->
+  
+    <h4>Compétences techniques</h4>
+    <ul>
+      <li>Analyse de données : R, Stata, SPSS, EViews, Python, Excel</li>
+      <li>Conception et gestion d’enquêtes : KoboCollect, ODK</li>
+      <li>Génération de données synthétiques par la méthode de GAN (Generative Adversarial Networks)</li>
+    </ul>
+  
+    <h4>Formations & Certifications</h4>
+<ul>
+    <li>Machine Learning avec Python – En cours (2025)</li>
+  <li>
+    <strong>Indice de Pauvreté Multidimensionnelle</strong> – OPHI & PNUD (Mars 2025)<br>
+    <a href="certificat_ipm_ophi.pdf.pdf" target="_blank">📄 Voir le certificat</a>
+  </li>
+  <li>
+    <strong>Suivi & Évaluation des programmes de retour et de réintégration</strong> – OIM (Août 2024)<br>
+    <a href="certificat_suivi_evaluation_oim.pdf.pdf" target="_blank">📄 Voir le certificat</a>
+  </li>
+  <li>
+    <strong>Gestion des politiques économiques sensibles au genre</strong> – IDEP<br>
+    <a href="certificat_idep_genre.pdf.pdf" target="_blank">📄 Voir le certificat</a>
+  </li>
+  <li>
+    <strong>Programmation et politique financières (Partie 1)</strong> – FMI (2021)<br>
+    <a href="certificat_fmi_part1.pdf.pdf" target="_blank">📄 Voir le certificat</a>
+  </li>
+  <li>
+    <strong>Programmation et politique financières (Partie 2)</strong> – FMI (2022)<br>
+    <a href="certificat_fmi_part2.pdf.pdf" target="_blank">📄 Voir le certificat</a>
+  </li>
+</ul>
+  </div>
+
+<div id="projects" class="tab-content">
+    <h3>Projets réalisés</h3>
+  
+    <div style="margin-bottom: 20px;">
+        <ul>
+      <li>
+        <strong>Impact du télétravail sur l’équilibre vie professionnelle et personnelle après le COVID-19</strong>
+      <p>
+        Ce projet est une analyse qualitative portant sur les effets du télétravail imposé par la pandémie du COVID-19. 
+        Il met en lumière les changements dans la dynamique entre vie professionnelle et personnelle, notamment chez les salariés du secteur formel.
+      </p>
+      <a href="projet_teletravail_covid.pdf" target="_blank" style="background: #004080; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none;">📄 Télécharger le rapport</a>
+    </div>
+  
+
+  
+        <ul>
+      <li>
+        <strong>Résilience des ménages face au choc alimentaire</strong>
+      <p>
+        Cette étude vise à analyser les stratégies de résilience mises en place par les ménages agricoles togolais face aux chocs alimentaires.
+        Elle part du constat que le Togo, pays à faible résilience, a connu une aggravation de l'insécurité alimentaire avec la crise du COVID-19, 
+        qui a fortement affecté les PME, notamment dans les secteurs agricole et agro-industriel. L’analyse, à la fois descriptive et économétrique, 
+        montre que la résilience des ménages reste faible et dépend de plusieurs facteurs, notamment les caractéristiques socio-démographiques et
+        économiques, la sécheresse et les mauvaises récoltes.
+      </p>
+      <a href="projet_resilence.pdf" target="_blank" style="background: #004080; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none;">📄 Télécharger le rapport</a>
+    </div>
+  </div>
+  
+  <div id="goals" class="tab-content">
+    <h3>Objectifs professionnels</h3>
+    <p>
+      Mon objectif principal est de devenir un <strong>data scientist de référence</strong>, capable de transformer les données en leviers concrets pour le développement.
+    </p>
+    <p>
+      Je souhaite contribuer à l'élaboration et à l’évaluation de politiques publiques efficaces, inclusives et basées sur des évidences empiriques. Je m’engage aussi à promouvoir la culture de la donnée et à renforcer les capacités locales, notamment en accompagnant les jeunes chercheurs dans leurs projets.
+    </p>
+    <p>
+      Je vise également à approfondir mes compétences en <strong>apprentissage automatique (machine learning)</strong>, en évaluation d’impact, en visualisation des données et en planification stratégique pour intervenir dans des projets complexes à forte valeur sociale.
+    </p>
+  </div>
+  
+  <!-- <div id="lang" class="tab-content"> -->
+    <!-- <h3>Langue</h3> -->
+    <!-- <p>Choisissez votre langue :</p> -->
+    <!-- <button onclick="setLang('fr')" style="padding:10px; margin-right:10px;">🇫🇷 Français</button> -->
+    <!-- <button onclick="setLang('en')" style="padding:10px;">🇬🇧 English</button> -->
+  <!-- </div> -->
+  
+  <div id="bio" class="tab-content">
+    <h3><span class="fr">Présentation / Biographie</span><span class="en" style="display:none;">About Me</span></h3>
+  
+    <p class="fr">Je suis SEGBEDJI KOKUVI Barnabé, originaire du Togo...</p>
+    <p class="en" style="display:none;">I am SEGBEDJI KOKUVI Barnabé, originally from Togo...</p>
+  </div>
+  
+  <div id="link" class="tab-content">
+    <h3>Accès direct à mon portfolio en ligne</h3>
+    <p>Vous pouvez consulter mon portfolio hébergé en ligne à l’adresse suivante :</p>
+    <a href="https://github.com/segbedjibarnabedata/PORTFOLIO.git" target="_blank" style="color: #004080; font-weight: bold;">
+      🌐 https://github.com/segbedjibarnabedata/PORTFOLIO.git
+    </a>
+  </div>
+
+  <footer>
+    &copy; 2025 Segbedji Kokuvi Barnabé. Tous droits réservés.
+  </footer>
+
+
+  <script>
+    function openTab(id) {
+      document.querySelectorAll('.tab-content').forEach(div => {
+        div.classList.remove('active');
+      });
+      document.getElementById(id).classList.add('active');
+    }
+  
+    function setLang(lang) {
+      if (lang === 'fr') {
+        document.querySelectorAll('.fr').forEach(el => el.style.display = '');
+        document.querySelectorAll('.en').forEach(el => el.style.display = 'none');
+      } else if (lang === 'en') {
+        document.querySelectorAll('.fr').forEach(el => el.style.display = 'none');
+        document.querySelectorAll('.en').forEach(el => el.style.display = '');
+      }
+    }
+  </script>
+  
+</body>
+</html>
